@@ -16,14 +16,13 @@ Módulo para validação completa de estrutura de dados
 ### Exemplos de execução
 
 ```javascript
-const Spark = require('nilot-utils')
+s { renameObjectToCamelCase } = require('nilot-utils');
 
- * const result = renameObjectToCamelCase({full_name: 'John Smith'})
- * ==> { fullName: 'John Smith' }X
+const result = renameObjectToCamelCase({full_name: 'John Smith'}).s]]]]]
 
 /**
  *  O resultado dessa execução retornará uma estrutura dessa forma:
- * Object {fields: ["name"], message: "name"}
+ * Object { fullName: 'John Smith' }
  */
 ```
 
