@@ -16,9 +16,9 @@ Módulo para validação completa de estrutura de dados
 ### Exemplos de execução
 
 ```javascript
-s { renameObjectToCamelCase } = require('nilot-utils');
+import { renameObjectToCamelCase } from 'nilot-utils');
 
-const result = renameObjectToCamelCase({full_name: 'John Smith'}).s]]]]]
+const result = renameObjectToCamelCase({full_name: 'John Smith'});
 
 /**
  *  O resultado dessa execução retornará uma estrutura dessa forma:
