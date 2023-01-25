@@ -10,7 +10,9 @@
     "format": "npx prettier --write .",
     "test": "vitest"
   },
-  "keywords": ["lib"],
+  "keywords": [
+    "lib"
+  ],
   "author": "Danilo Ramon <daniloras84@gmail.com>",
   "license": "ISC",
   "devDependencies": {

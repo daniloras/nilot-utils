@@ -13,7 +13,7 @@ import { IRenameKeysObjectToCamelCase } from './index.interface';
  *
  * @example
  * const result = renameObjectToCamelCase({full_name: 'John Smith'})
- * ==> { fullName: 'John Smith' }
+ * ==> { fullName: 'John Smith' }X
  */
 const renameObjectToCamelCase = (data: IRenameKeysObjectToCamelCase) => {
   return JSON.parse(
