@@ -1,7 +1,8 @@
 {
   "name": "nilot-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Modern JavaScript utility library",
+  "repository": "https://github.com/daniloras/nilot-utils",
   "main": "dist/index.js",
   "scripts": {
     "start": "tsx src/index.ts",
